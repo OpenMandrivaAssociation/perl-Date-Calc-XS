@@ -1,15 +1,15 @@
 %define upstream_name    Date-Calc-XS
-%define upstream_version 6.2
+%define upstream_version 6.3
 
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version %{upstream_version}
-Release:	2
+Version:    %perl_convert_version 6.3
+Release:	1
 
 Summary:    No summary found
 License:    GPL+ or Artistic
 Group:      Development/Perl
 Url:        http://search.cpan.org/dist/%{upstream_name}
-Source0:    http://www.cpan.org/modules/by-module/Date/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:    http://www.cpan.org/modules/by-module/Date/Date-Calc-XS-6.3.tar.gz
 
 BuildRequires: perl(Bit::Vector)
 BuildRequires: perl(Carp::Clan)
@@ -55,4 +55,5 @@ rm -rf %buildroot
 * Sun Jan 30 2011 Guillaume Rousse <guillomovitch@mandriva.org> 6.200.0-1
 + Revision: 634010
 - import perl-Date-Calc-XS
+
 

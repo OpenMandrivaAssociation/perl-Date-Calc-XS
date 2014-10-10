@@ -3,7 +3,7 @@
 
 Name:       perl-%{upstream_name}
 Version:    %perl_convert_version 6.3
-Release:	1
+Release:	2
 
 Summary:    No summary found
 License:    GPL+ or Artistic

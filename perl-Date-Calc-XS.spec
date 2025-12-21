@@ -11,6 +11,7 @@ Group:      Development/Perl
 Url:        https://search.cpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Date/Date-Calc-XS-6.3.tar.gz
 
+BuildRequires:	make
 BuildRequires: perl(Bit::Vector)
 BuildRequires: perl(Carp::Clan)
 BuildRequires: perl(Date::Calc)

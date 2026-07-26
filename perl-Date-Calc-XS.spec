@@ -1,14 +1,12 @@
 %define upstream_name    Date-Calc-XS
-%define upstream_version 6.3
-
 Name:       perl-%{upstream_name}
-Version:    %perl_convert_version 6.3
-Release:	3
+Version:    6.3
+Release:	4
 
 Summary:    No summary found
 License:    GPL+ or Artistic
 Group:      Development/Perl
-Url:        https://search.cpan.org/dist/%{upstream_name}
+Url:        https://metacpan.org/dist/%{upstream_name}
 Source0:    http://www.cpan.org/modules/by-module/Date/Date-Calc-XS-6.3.tar.gz
 
 BuildRequires:	make
@@ -22,7 +20,7 @@ BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}
 You never use this module directly. Use the Date::Calc(3) manpage instead!
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 %{__perl} Makefile.PL INSTALLDIRS=vendor
